@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+   
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 12px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: white;
+}
+
+.navbar {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar- {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+
+#hero {
+    background-image: url("../images/section1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.card {
+    padding-top: 100px;
+    padding-bottom: 236px;
+}
+
+.card p,
+h1 {
+    color: white;
+}
+
+.card p {
+    padding-top: 48px;
+}
+
+.card h1 {
+    font-size: 110px;
+}
+
+.card--btn {
+    width: 180;
+    height: 52;
+    margin-top: 40px;
+    opacity: 1;
+    gap: 10px;
+    border-radius: 10px;
+    border: none;
+    padding-top: 16px;
+    padding-right: 80px;
+    padding-bottom: 16px;
+    padding-left: 80px;
+    background-color: rgb(250, 162, 0);
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.title h4{
+    text-align: center;
+    padding-top: 80px;
+    color: white;
+}
+
+
+.card1 , .card2 , .card3{
+    width: 800px;
+    height: 200px;
+    background-color: #101010;
+    z-index: 1;
+    transition: transform 0.3s ease, z-index 0s;
+    border: 2px solid  #272727;
+}
+
+
+.card1:hover{
+    transform: scale(1.2);
+    z-index: 7;
+    border-radius: 10px;
+    background-color: #2E2E2E;
+}
+.card2:hover {
+    transform: scale(1.2);
+    z-index: 7;
+    border-radius: 10px;
+    background-color: #2E2E2E;
+}
+.card3:hover {
+    transform: scale(1.2);
+    z-index: 7;
+    border-radius: 10px;
+    background-color: #2E2E2E;
+}
+.images{
+    display: flex;
+    padding-top: 60px;
+    gap: 20px;
+}
+.images img{
+    width: 250px;
+    height: 150px;
+}
+.cards{
+    display: flex;
+}
